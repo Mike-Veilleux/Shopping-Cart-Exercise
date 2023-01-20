@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.title {
+  font-size: 2em;
+  padding-bottom: 1em;
+}
+.shopItemContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+.shopItem {
+  display: flex;
+  flex-direction: row;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid gray;
+  border-radius: 0.25rem;
+  color: whitesmoke;
+  background-color: rgb(59, 68, 231);
+}
+.shopItem:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
