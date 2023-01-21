@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import "./App.css";
 import CartItems from "./components/cartItems";
+import CartMessage from "./components/CartMessage";
+import ClearCartButton from "./components/ClearCartButton";
 import ShopItems from "./components/shopItems";
 import useItems from "./hooks/useItems";
 
@@ -8,10 +10,16 @@ function App() {
   const items = useItems();
 
   return (
-    <div className="App">
-      <div className="title">My fruit shop</div>
-      <ShopItems {...items} />
-      <CartItems {...items} />
+    <div className="container">
+      <div className="subContainer">
+        <div className="title">Fruit Shop</div>
+        <ShopItems {...items} />
+      </div>
+      <div className="subContainer">
+        <CartItems {...items} />
+        <CartMessage {...items} />
+      </div>
+      <ClearCartButton {...items} />
     </div>
   );
 }
