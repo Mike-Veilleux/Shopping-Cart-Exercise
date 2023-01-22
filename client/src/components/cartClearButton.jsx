@@ -1,6 +1,6 @@
 import React from "react";
 
-const ClearCartButton = (props) => {
+const CartClearButton = (props) => {
   let result = <></>;
   if (props.cartItems.length > 0) {
     result = (
@@ -12,4 +12,4 @@ const ClearCartButton = (props) => {
   return <>{result}</>;
 };
 
-export default ClearCartButton;
+export default CartClearButton;

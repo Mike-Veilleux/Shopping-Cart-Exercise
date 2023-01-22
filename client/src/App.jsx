@@ -1,8 +1,7 @@
-import { useEffect } from "react";
 import "./App.css";
 import CartItems from "./components/cartItems";
-import CartMessage from "./components/CartMessage";
-import ClearCartButton from "./components/ClearCartButton";
+import CartMessage from "./components/cartMessage";
+import CartClearButton from "./components/cartClearButton";
 import ShopItems from "./components/shopItems";
 import useItems from "./hooks/useItems";
 
@@ -14,7 +13,7 @@ function App() {
       <ShopItems {...items} />
       <CartItems {...items} />
       <CartMessage {...items} />
-      <ClearCartButton {...items} />
+      <CartClearButton {...items} />
     </div>
   );
 }
