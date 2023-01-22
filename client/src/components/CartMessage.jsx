@@ -4,7 +4,7 @@ const CartMessage = (props) => {
   let message = "";
 
   if (props.cartItems.length === 0) {
-    message = "Click on an item in the Fruit Shop to add to your basket";
+    message = "Click on an item in the Fruit Shop to add to your basket...";
   } else {
     let totalAmount = 0;
     props.cartItems.forEach((item) => {
