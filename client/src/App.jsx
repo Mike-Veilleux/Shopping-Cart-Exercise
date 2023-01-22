@@ -1,7 +1,5 @@
 import "./App.css";
 import Cart from "./components/cart";
-import CartMessage from "./components/cartMessage";
-import CartClearButton from "./components/cartClearButton";
 import Shop from "./components/shop";
 import useItems from "./hooks/useItems";
 
