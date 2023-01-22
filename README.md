@@ -16,7 +16,7 @@ A simple shopping cart app using React and Vite toolchain. This exercise targets
 
 ## Install
 
-Clone or download this repo, go to the client folder and run the following commands from a terminal window:
+Clone or download this repo, go to the **client** folder and run the following commands from a terminal window:
 
 Install dependencies
 
