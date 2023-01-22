@@ -1,6 +1,8 @@
 import React from "react";
+import CartClearButton from "./cartClearButton";
+import CartMessage from "./cartMessage";
 
-const CartItems = (props) => {
+const Cart = (props) => {
   let title;
   if (props.cartItems.length > 0) {
     title = <div className="title">My Basket</div>;
@@ -22,8 +24,10 @@ const CartItems = (props) => {
     <div className="subContainer">
       <div>{title}</div>
       <div className="itemContainer">{renderCartItems}</div>
+      <CartMessage {...props} />
+      <CartClearButton {...props} />
     </div>
   );
 };
 
-export default CartItems;
+export default Cart;

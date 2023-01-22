@@ -1,6 +1,6 @@
 import React from "react";
 
-const ShopItems = (props) => {
+const Shop = (props) => {
   const renderShopItems = props.shopItems.map((shopItem, index) => {
     let nameStyle = "name";
     let priceStyle = "price";
@@ -29,4 +29,4 @@ const ShopItems = (props) => {
   );
 };
 
-export default ShopItems;
+export default Shop;

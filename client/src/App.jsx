@@ -1,8 +1,8 @@
 import "./App.css";
-import CartItems from "./components/cartItems";
+import Cart from "./components/cart";
 import CartMessage from "./components/cartMessage";
 import CartClearButton from "./components/cartClearButton";
-import ShopItems from "./components/shopItems";
+import Shop from "./components/shop";
 import useItems from "./hooks/useItems";
 
 function App() {
@@ -10,10 +10,8 @@ function App() {
 
   return (
     <div className="container">
-      <ShopItems {...items} />
-      <CartItems {...items} />
-      <CartMessage {...items} />
-      <CartClearButton {...items} />
+      <Shop {...items} />
+      <Cart {...items} />
     </div>
   );
 }
