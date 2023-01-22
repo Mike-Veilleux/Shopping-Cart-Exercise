@@ -15,7 +15,7 @@ const ShopItems = (props) => {
       <div
         key={`shopItem_${index}`}
         className="item shop"
-        onClick={() => props.onAddToBasket(shopItem)}
+        onClick={() => props.onAddToCart(shopItem)}
       >
         <div className={nameStyle}>{`${shopItem.name}`}</div>
         <div className={priceStyle}>{`${shopItem.price}$`}</div>

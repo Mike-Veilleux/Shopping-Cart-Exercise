@@ -7,7 +7,6 @@ const useItems = () => {
     { name: "Lemons", quantity: 9, price: 0.45 },
     { name: "Limes", quantity: 4, price: 0.35 },
   ];
-
   const [shopItems, setShopItems] = useState(initialStock);
   const [cartItems, setCartItems] = useState([]);
 
@@ -90,7 +89,7 @@ const useItems = () => {
     cartItems,
     setShopItems,
     setCartItems,
-    onAddToBasket: onAddToCart,
+    onAddToCart,
     onRemoveFromCart,
     onClearCart,
   };
