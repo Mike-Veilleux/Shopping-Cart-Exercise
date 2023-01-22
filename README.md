@@ -4,9 +4,7 @@
 
 This repo contains the shopping cart exercise from my MIT Full Stack development course.
 
-<img src="https://github.com/Mike-Veilleux/Shopping-Cart-Exercise/blob/main/src/assets/shoppinCartScreenshot.png">
-
-https://github.com/Mike-Veilleux/Shopping-Cart-Exercise/tree/main/client/src
+<img src="https://github.com/Mike-Veilleux/Shopping-Cart-Exercise/blob/main/client/src/assets/shoppinCartScreenshot.png">
 
 ## Description
 
@@ -18,7 +16,7 @@ A simple shopping cart app using React and Vite toolchain. This exercise targets
 
 ## Install
 
-Clone or download this repo, go to the client folder and run the following commands from a terminal window:
+Clone or download this repo, go to the **client** folder and run the following commands from a terminal window:
 
 Install dependencies
 
