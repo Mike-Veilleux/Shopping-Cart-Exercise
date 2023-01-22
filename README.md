@@ -4,7 +4,9 @@
 
 This repo contains the shopping cart exercise from my MIT Full Stack development course.
 
-<img src="https://github.com/Mike-Veilleux/Todos/blob/main/src/assets/ReactTodoExercise.png">
+<img src="https://github.com/Mike-Veilleux/Shopping-Cart-Exercise/blob/main/src/assets/shoppinCartScreenshot.png">
+
+https://github.com/Mike-Veilleux/Shopping-Cart-Exercise/tree/main/client/src
 
 ## Description
 
