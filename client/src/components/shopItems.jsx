@@ -7,8 +7,6 @@ const ShopItems = (props) => {
     let quantityStyle = "quantity";
     if (shopItem.quantity === 0) {
       nameStyle = "name striped";
-      // priceStyle = "price striped";
-      // quantityStyle = "quantity striped";
     }
 
     return (
@@ -23,7 +21,12 @@ const ShopItems = (props) => {
       </div>
     );
   });
-  return <div className="itemContainer">{renderShopItems}</div>;
+  return (
+    <div className="subContainer">
+      <div className="title">Fruit Shop</div>
+      <div className="itemContainer">{renderShopItems}</div>
+    </div>
+  );
 };
 
 export default ShopItems;

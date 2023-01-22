@@ -19,7 +19,7 @@ const CartItems = (props) => {
     );
   });
   return (
-    <div>
+    <div className="subContainer">
       <div>{title}</div>
       <div className="itemContainer">{renderCartItems}</div>
     </div>

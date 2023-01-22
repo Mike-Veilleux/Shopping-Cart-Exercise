@@ -11,14 +11,9 @@ function App() {
 
   return (
     <div className="container">
-      <div className="subContainer">
-        <div className="title">Fruit Shop</div>
-        <ShopItems {...items} />
-      </div>
-      <div className="subContainer">
-        <CartItems {...items} />
-        <CartMessage {...items} />
-      </div>
+      <ShopItems {...items} />
+      <CartItems {...items} />
+      <CartMessage {...items} />
       <ClearCartButton {...items} />
     </div>
   );
