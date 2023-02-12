@@ -1,10 +1,12 @@
 # Shopping Cart Exercise
- 
+
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 
 This repo contains the shopping cart exercise from my MIT Full Stack development course.
 
 <img src="https://github.com/Mike-Veilleux/Shopping-Cart-Exercise/blob/main/client/src/assets/shoppinCartScreenshot.png">
+
+Live demo [here](https://mike-veilleux.github.io/Shopping-Cart-Exercise/)
 
 ## Description
 
@@ -33,4 +35,3 @@ npm run dev
 ## Licensing
 
 This project is under MIT license.
-
